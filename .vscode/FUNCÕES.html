@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        FUNCÇÕES 
+        FUNCÇAO SIMPLES 
+       function mostrarMensagem(){
+            alert("Olá, mundo!");
+            console.log("Olá, mundo!");
+        
+       mostrarMensagem();
+
+       function saudação(nome){
+            alert("Olá, " + nome );
+            console.log("Olá, " + nome ); 
+        }
+        saudação("João");
+        saudação("Maria");*/
+
+        FUNÇÃO PARAMETRO E ARGUMENTO
+        function somar(a, b){
+           return a + b;
+        }
+        let resultado = somar(5, 3);
+        console.log(resultado); */
+
+        FUNÇÃO APLICADA AOS DADOA DO USUARIO
+       function calcularMedia(nota1, nota2){
+          return (nota1 + nota2) / 2;
+        }
+
+        let nota1 = Number(prompt("Digite a primeira nota: "));
+        let nota2 = Number(prompt("Digite a segunda nota: "));
+        let media = calcularMedia(nota1, nota2);
+        
+        alert("A média das notas é: " + media);
+        console.log("A média das notas é: " + media);
+
+        
+    </script>
+</body>
+</html>
